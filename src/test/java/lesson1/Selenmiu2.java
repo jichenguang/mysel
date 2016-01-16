@@ -1,12 +1,10 @@
 package lesson1;
 
-import static org.junit.Assert.*;
-
+import org.testng.annotations.Test;
 import java.util.List;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
-import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
