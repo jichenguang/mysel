@@ -16,7 +16,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class Selenmiu2 { 
 	
 	
-	@Test       
+	      
 
            public static   String click(String username, String password) {
 																					
