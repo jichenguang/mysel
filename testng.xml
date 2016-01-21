@@ -10,10 +10,42 @@
 </suite> Suite
  -->
 
-<suite name="Suite1">
+<!-- <suite name="Suite1">
   <test name="test1">
     <classes>
        <class name="lesson2.TestngAnnotation"/>
     </classes>
   </test>
-</suite>
+</suite> -->
+
+
+<!-- <suite name="Sample test Suite">
+   <test name="Sample test">
+    <classes>
+      <class name="lesson4.SampleTest" />
+    </classes>
+  </test>
+</suite> -->
+
+
+<!-- <suite name="Suite1">
+  <test name="exampletest1">
+    <classes>
+       <class name="lesson5.Test1" />
+    </classes>
+  </test>
+  <test name="exampletest2">
+    <classes>
+       <class name="lesson5.Test2" />
+    </classes>
+  </test>
+</suite>  	 -->
+
+
+<suite name="Suite1">
+  <test name="test1">
+    <classes>
+       <class name="lesson6.IgnoreTest" />
+    </classes>
+  </test>
+ </suite>

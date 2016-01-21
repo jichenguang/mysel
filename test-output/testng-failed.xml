@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <test name="test1(failed)">
     <classes>
-      <class name="lesson3.TestHelloWorldTestNG_Fail">
+      <class name="lesson6.IgnoreTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="helloWorld"/>
+          <include name="testSalutationMessageandtestPrintMessage"/>
         </methods>
-      </class> <!-- lesson3.TestHelloWorldTestNG_Fail -->
-      <class name="lesson3.TestHelloWorldTestNG">
-        <methods>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- lesson3.TestHelloWorldTestNG -->
+      </class> <!-- lesson6.IgnoreTest -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
