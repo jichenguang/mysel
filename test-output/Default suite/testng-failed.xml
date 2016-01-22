@@ -3,12 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="lesson3.TestHelloWorldTestNG">
+      <class name="excle.excelutilstes">
         <methods>
-          <include name="tearDown"/>
-          <include name="helloWorld"/>
+          <include name="excelutils"/>
         </methods>
-      </class> <!-- lesson3.TestHelloWorldTestNG -->
+      </class> <!-- excle.excelutilstes -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
