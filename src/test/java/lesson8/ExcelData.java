@@ -2,14 +2,17 @@ package lesson8;
 
 
 import java.io.File;
+import java.io.FileOutputStream;
+import java.io.OutputStream;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.TreeMap;
 import java.util.regex.Matcher;
 import jxl.*;
+import jxl.write.WritableWorkbook;
 
 public class ExcelData implements Iterator<Object[]> {
-	private Workbook book = null;
+	private WritableWorkbook book = null;
 	private Sheet sheet = null;
 	private int rowNum = 0;//行数
 	private int curRowNo = 0;//当前行数
@@ -24,11 +27,15 @@ public class ExcelData implements Iterator<Object[]> {
  public ExcelData(String filepath, String casename) {
 		try {
 			File directory = new File(".");
+			
 			String ss = "open.myExcel.";
-			book = Workbook.getWorkbook(new File(directory.getCanonicalPath()
-					+ "//resources//"
-					+ ss.replaceAll("\\.", Matcher.quoteReplacement("//"))
-					+ filepath + ".xlsx"));
+			
+//			String path = directory.getCanonicalPath()+ "/resources/"+ ss.replaceAll("\\.", Matcher.quoteReplacement("/"))+filepath+".xls";
+			String path = directory.getCanonicalPath()+ "/"+filepath+".xls";
+			
+			System.out.println(path);
+
+			book = Workbook.createWorkbook(new File(path));/*纠结了一晚上*/
 			this.sheet = book.getSheet(casename);
 			this.rowNum = sheet.getRows();
 
