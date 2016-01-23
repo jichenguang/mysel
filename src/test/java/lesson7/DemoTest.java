@@ -7,18 +7,18 @@ public class DemoTest {
 	public static void main(String[] args) {
         Demo d = new Demo();
         d.testGoTo(url);
-    /*    d.testInput("hello");
-        d.testLink();
-        d.testRadioBox(2);*/
-        d.testSelect("opel");
-      /*  d.testCheckBox(2);
+        d.testInput("hello");
+     //d.testLink();
+//        d.testRadioBox(3);
+//        d.testSelect("opel");
+//        d.testCheckBox(2);
         d.testButton();
-        d.testUpload("c:\\test.txt");
-        d.testAlert();
-        d.testAction();
-        d.testJavaScript();*/
-        d.testWait();
-        
+//        d.testUpload("c:\\test.txt");
+//        d.testAlert();
+//        d.testAction();
+//        d.testJavaScript();
+//        d.testWait();
+//        
         
         d.testQuit();
 	}
