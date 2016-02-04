@@ -16,12 +16,13 @@ public class getCellText {
 		int row =  Integer.parseInt(tableCellAddress.substring(0, index));
 		int cell = Integer.parseInt(tableCellAddress.substring(index+1));
 		//得到table表中所有行对象，并得到所要查询的行对象。
-		 List<WebElement> myrows = table.findElements(By.tagName("tr"));
+		 List<WebElement> myrows = table.findElements(By.tagName("tr"));	 
 		 WebElement theRow = myrows.get(row);
+		 System.out.println(theRow.getAttribute("data-product"));
 		 //调用getCell方法得到对应的列对象，然后得到要查询的文本。
-		 String text = getCell.getCell(theRow, cell).getText();
+		 WebElement target = getCell.getCell(theRow, cell);		 
+		 String text = target.getText();
 		 return text;
 	}
-	
 
 }

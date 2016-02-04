@@ -84,9 +84,26 @@
 		</dependency>
 		<dependency>
 	<groupId>org.apache.poi</groupId>
-	<artifactId>poi-excelant</artifactId>
-	<version>3.13</version>
-</dependency>
+		<artifactId>poi-excelant</artifactId>
+		<version>3.13</version>
+	</dependency>
+	<dependency>
+		<groupId>org.uncommons</groupId>
+		<artifactId>reportng</artifactId>
+		<version>1.1.4</version>
+	</dependency>
+	<dependency>
+		<groupId>com.google.code.guice</groupId>
+		<artifactId>guice</artifactId>
+		<version>1.0</version>
+	</dependency>
+	<dependency>
+		<groupId>com.google.inject</groupId>
+		<artifactId>guice</artifactId>
+		<version>4.0</version>
+	</dependency>
+	
+	
 	
   	</dependencies>
 </project>

@@ -27,7 +27,6 @@ public class Table {
 	@return 从一个table的单元格中得到文本值
 	*/
 	
-
 	
 	
 //	public static void main(String[] args) {

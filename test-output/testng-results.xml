@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7096" started-at="2016-01-26T03:31:45Z" finished-at="2016-01-26T03:31:53Z">
+  <suite name="Default suite" duration-ms="869" started-at="2016-02-01T10:12:48Z" finished-at="2016-02-01T10:12:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7096" started-at="2016-01-26T03:31:45Z" finished-at="2016-01-26T03:31:53Z">
-      <class name="lesson12.Table">
-        <test-method status="PASS" signature="Tabletest()[pri:0, instance:lesson12.Table@7305830a]" name="Tabletest" duration-ms="7067" started-at="2016-01-26T11:31:45Z" finished-at="2016-01-26T11:31:53Z">
+    <test name="Default test" duration-ms="869" started-at="2016-02-01T10:12:48Z" finished-at="2016-02-01T10:12:49Z">
+      <class name="lesson15.HttpTestPost">
+        <test-method status="PASS" signature="test()[pri:0, instance:lesson15.HttpTestPost@31aab84e]" name="test" duration-ms="819" started-at="2016-02-01T18:12:48Z" finished-at="2016-02-01T18:12:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Tabletest -->
-      </class> <!-- lesson12.Table -->
+        </test-method> <!-- test -->
+      </class> <!-- lesson15.HttpTestPost -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
